@@ -66,13 +66,17 @@ a:hover {
 	color: #CBC5D9;
 }
 
-ul {
-	list-style: none;
+table {
+	border-collapse: collapse;
 }
 
 td {
 	padding: 10px;
 }
 
+tr.bottom-border td {
+	position: relative;
+	border-bottom: 1px solid #CBC5D9;
+}
 
 
