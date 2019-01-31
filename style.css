@@ -70,8 +70,12 @@ a:hover {
 }
 
 p {
-	max-width: 450px;
 	margin: 0 auto;
+	max-width: 450px;
+}
+
+.text-wide {
+	max-width: none;
 }
 
 table {
