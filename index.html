@@ -10,6 +10,8 @@
   </head>
   
 	<body>
+
+
 		<div class="container">
 			<div class="card">
 				<img src="./images/portrait-fullsize.JPG" alt="Jamie Christopher Webber" id="logo">
@@ -64,7 +66,7 @@
 					<tbody>
 						<tr class="bottom-border">
 							<td>
-								<a href="https://www.youtube.com/watch?v=KhDjUzapdgg" target="_blank"><img src="images/vivier.jpg" alt="Claude Vivier"></a>
+								<a href="https://www.youtube.com/watch?v=KhDjUzapdgg" target="_blank"><img src="images/vivier.jpg" alt="Claude Vivier" class="filter-1"></a>
 							</td>
 							<td>
 								<a href="https://www.youtube.com/watch?v=KhDjUzapdgg" target="_blank"><h3>Claude Vivier</h3></a>
@@ -73,7 +75,7 @@
 						</tr>
 						<tr class="bottom-border">
 							<td>
-								<a href="https://www.youtube.com/watch?v=7pq8Pxz1rlM&list=PL4drAvWR7SFYFMydVHNApWNoMMuMhgAGa" target="_blank"><img src="images/lizée.jpg" alt="Nicole Lizée"></a>
+								<a href="https://www.youtube.com/watch?v=7pq8Pxz1rlM&list=PL4drAvWR7SFYFMydVHNApWNoMMuMhgAGa" target="_blank"><img src="images/lizée.jpg" alt="Nicole Lizée" class="filter-2"></a>
 							</td>
 							<td>
 								<a href="https://www.youtube.com/watch?v=7pq8Pxz1rlM&list=PL4drAvWR7SFYFMydVHNApWNoMMuMhgAGa" target="_blank"><h3>Nicole Lizée</h3></a>
@@ -82,7 +84,7 @@
 						</tr>
 						<tr>
 							<td>
-								<a href="https://www.youtube.com/watch?v=Pl20pWFSdGA" target="_blank"><img src="images/discipio.jpg" alt="Agostino Di Scipio"></a>
+								<a href="https://www.youtube.com/watch?v=Pl20pWFSdGA" target="_blank"><img src="images/discipio.jpg" alt="Agostino Di Scipio" class="filter-3"></a>
 							</td>
 							<td>
 								<a href="https://www.youtube.com/watch?v=Pl20pWFSdGA" target="_blank"><h3>Agostino Di Scipio</h3></a>
@@ -106,6 +108,34 @@
 	       </a> 
 		  </div>
 		</div>
+
+		<svg class="defs-only">
+		  <filter id="filter1" color-interpolation-filters="sRGB"
+		          x="0" y="0" height="100%" width="100%">
+		    <feColorMatrix type="matrix"
+		      values="0.30 0 0 0  .52 
+		              0.80 0 0 0  .15  
+		              0.65 0 0 0  .20 
+		                0  0 0 1  0" />
+		  </filter>
+		  <filter id="filter2" color-interpolation-filters="sRGB"
+		          x="0" y="0" height="100%" width="100%">
+		    <feColorMatrix type="matrix"
+		      values="0.45 0 0 0  .20 
+		              0.30 0 0 0  .50  
+		              0.80 0 0 0  .15 
+		                0  0 0 1  0" />
+		  </filter>
+		  <filter id="filter3" color-interpolation-filters="sRGB"
+		          x="0" y="0" height="100%" width="100%">
+		    <feColorMatrix type="matrix"
+		      values="0.50 0 0 0  .15 
+		              0.65 0 0 0  .20  
+		              0.30 0 0 0  .50 
+		                0  0 0 1  0" />
+		  </filter>
+		</svg>
+
 	</body>
 </html>
 <!-- end of file -->

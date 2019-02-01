@@ -1,3 +1,6 @@
+
+@import url("/assets/filters.svg");
+
 body {
 	background-image: url("images/wallpaper.jpg");
 	background-repeat: repeat;
@@ -92,4 +95,14 @@ tr.bottom-border td {
 	border-bottom: 2px solid #CBC5D9;
 }
 
+.filter-1:hover {
+	filter: url("#filter1");
+}
 
+.filter-2:hover {
+	filter: url("#filter2");
+}
+
+.filter-3:hover {
+	filter: url("#filter3");
+}
